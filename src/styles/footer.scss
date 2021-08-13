@@ -1,0 +1,27 @@
+.footer { 
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerSVG {
+  width: 5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  & a {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.footerText {
+  font-size: .8rem;
+  font-weight: 400;
+  & img {
+    vertical-align:-.2em;
+  }
+}
