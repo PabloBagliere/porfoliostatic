@@ -1,0 +1,31 @@
+
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    "eslint-plugin-html",
+    "import"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "no-console": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 100,
+        "trailingComma": "all",
+        "singleQuote": true,
+        "bracketSpacing": true,
+        "arrowParens": "always",
+        "endOfLine":"auto"
+      }
+    ],
+    "import/order": ["warn", {"newlines-between": "always"}]
+  }
+}
