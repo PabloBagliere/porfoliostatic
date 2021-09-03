@@ -2,7 +2,6 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pablo Bagliere - Porfolio</title>
     <meta name="description" content="Porfolio personal de pablo bagliere" />
@@ -19,10 +18,10 @@
     />
   </head>
   <body>
-    <div class="conteiner">
+    <main class="conteiner">
       <header class="header">
         <input class="menuBtn" type="checkbox" id="menu-btn" />
-        <label class="menuIcon" htmlFor="menu-btn">
+        <label class="menuIcon" for="menu-btn">
           <span class="navicon"></span>
         </label>
         <ul class="menu">
@@ -43,6 +42,141 @@
         </ul>
       </header>
       <div>hola prueba</div>
+      <section class="Project_conteiner" id="projects">
+        <h3 class="Project_title">Proyectos</h3>
+        <div class="Project_grid">
+          <div class="Project_card">
+            <img
+              class="Project_img"
+              src="../assets/images/PokedexPC.jpg"
+              alt="Pokedex"
+            />
+            <div class="Project_footer">
+              <p>
+                Usando una API publica de pokemons la PokeAPI para una pokedex,
+                usando JavaScript nativo con promesas, modulos nativos, CSS y
+                HTML. Echo en grupo de la comunidad FrontedCafé.
+              </p>
+              <div class="Project_action">
+                <a
+                  class="Project_link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/PabloBagliere/PokedexFEC"
+                  >CODIGO</a
+                >
+                <a
+                  class="Project_link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://pokedex-fec-pablo.vercel.app"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="Project_card">
+            <img
+              class="Project_img"
+              src="../assets/images/tradehelm.jpg"
+              alt="Challenge de tradehelm"
+            />
+            <div class="Project_footer">
+              <p>
+                Subido a GitHub usado para las entrevistas de la empresa
+                TradeHelm. Echo en react usando TypeScript, SASS, API nativa de
+                IndexedDB y usado las suit de test Jest, Testing Librery y
+                Cypress para el testeo.
+              </p>
+              <div class="Project_action">
+                <a
+                  class="Project_link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/PabloBagliere/tradehelm-challenge"
+                  >CODIGO</a
+                >
+                <a
+                  class="Project_link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://tradehelm-challenge-nine.vercel.app/"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="Project_card">
+            <img
+              class="Project_img"
+              src="../assets/images/radio.jpg"
+              alt="Mensaje del bot radio"
+            />
+            <div class="Project_footer">
+              <p>
+                Bot de Discord echo en Node.js, usado para escuchar la radio
+                atraves de internet y pasar musica de youtube en servidores del
+                mismo. Pero abandonado por razones de link de la radios.
+              </p>
+              <div class="Project_action">
+                <a
+                  class="Project_link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/PabloBagliere/discord-botradio"
+                  >CODIGO</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="Project_card">
+            <img
+              class="Project_img"
+              src="../assets/images/crud.jpg"
+              alt="Mensaje de response de la api"
+            />
+            <div class="Project_footer">
+              <p>
+                Crud basico de roles, creado usando TypeScript, node.js y Express.
+                Al mismo tiempo jest y SuperTest para testear la api por completo,
+                la api se conecta a una base de dato PosgresSQl usando el ORM typeORM.
+              </p>
+              <div class="Project_action">
+                <a
+                  class="Project_link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/PabloBagliere/Palmacenbackend"
+                  >CODIGO</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="Project_card">
+            <img
+              class="Project_img"
+              src="../assets/images/nest.jpg"
+              alt="Mensaje de response de graphql"
+            />
+            <div class="Project_footer">
+              <p>
+                Crud de fotos, echo con el framework nest.js de node.js siguiendo
+                su formato de trabajar igual que Angular. El mismo esta usando
+                GraphQL en ves de una restAPI y PosgresSQl de base de datos.
+              </p>
+              <div class="Project_action">
+                <a
+                  class="Project_link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/PabloBagliere/Crud-nest"
+                  >CODIGO</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <footer class="footer">
         <div class="footerSVG">
           <a
@@ -51,7 +185,7 @@
             target="_blank"
             aria-label="Get perfil GitHub"
           >
-            <img src="../assets/GitHub.svg" alt="Icon GitHub">
+            <img src="../assets/GitHub.svg" alt="Icon GitHub" />
           </a>
           <a
             href="https://www.linkedin.com/in/pablo-bagliere/"
@@ -59,11 +193,14 @@
             target="_blank"
             aria-label="Get perfil Linkedin"
           >
-            <img src="../assets/Linkedin.svg" alt="Icon linkedin">
+            <img src="../assets/Linkedin.svg" alt="Icon linkedin" />
           </a>
         </div>
-        <p class="footerText">Creada por Pablo Bagliere con <img src="../assets/Heart.svg" alt="Icon heart"></p>
+        <p class="footerText">
+          Creada por Pablo Bagliere con
+          <img src="../assets/Heart.svg" alt="Icon heart" />
+        </p>
       </footer>
-    </div>
+    </main>
   </body>
 </html>
