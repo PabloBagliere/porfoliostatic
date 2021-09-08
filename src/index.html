@@ -19,6 +19,7 @@
   </head>
   <body>
     <main class="conteiner">
+      <!-- Navbar -->
       <header class="header">
         <input class="menuBtn" type="checkbox" id="menu-btn" />
         <label class="menuIcon" for="menu-btn">
@@ -41,7 +42,32 @@
           </li>
         </ul>
       </header>
-      <div>hola prueba</div>
+      <div class="Hero_conteiner">
+        <div class="Hero_conteiner_img">
+          <img
+            class="Hero_img"
+            src="../assets/images/me.jpg"
+            alt="Foto de frente"
+          />
+        </div>
+        <div class="Hero_text">
+          <h1>Hola, soy Pablo Bagliere desarrolador web</h1>
+          <p>
+            Desarrollador web con tecnologías tales como React, Node y
+            Typescript. En constante aprendizaje de las tecnológicas web que se
+            usen en la actualidad.
+          </p>
+          <a
+            class="Hero_button"
+            aria-label="Get cv"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="/cvpablobagliere.pdf"
+            >Descargar CV</a
+          >
+        </div>
+      </div>
+      <!-- Projects -->
       <section class="Project_conteiner" id="projects">
         <h3 class="Project_title">Proyectos</h3>
         <div class="Project_grid">
@@ -137,9 +163,10 @@
             />
             <div class="Project_footer">
               <p>
-                Crud basico de roles, creado usando TypeScript, node.js y Express.
-                Al mismo tiempo jest y SuperTest para testear la api por completo,
-                la api se conecta a una base de dato PosgresSQl usando el ORM typeORM.
+                Crud basico de roles, creado usando TypeScript, node.js y
+                Express. Al mismo tiempo jest y SuperTest para testear la api
+                por completo, la api se conecta a una base de dato PosgresSQl
+                usando el ORM typeORM.
               </p>
               <div class="Project_action">
                 <a
@@ -160,9 +187,10 @@
             />
             <div class="Project_footer">
               <p>
-                Crud de fotos, echo con el framework nest.js de node.js siguiendo
-                su formato de trabajar igual que Angular. El mismo esta usando
-                GraphQL en ves de una restAPI y PosgresSQl de base de datos.
+                Crud de fotos, echo con el framework nest.js de node.js
+                siguiendo su formato de trabajar igual que Angular. El mismo
+                esta usando GraphQL en ves de una restAPI y PosgresSQl de base
+                de datos.
               </p>
               <div class="Project_action">
                 <a
@@ -177,6 +205,7 @@
           </div>
         </div>
       </section>
+      <!-- Footer -->
       <footer class="footer">
         <div class="footerSVG">
           <a
