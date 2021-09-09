@@ -4,6 +4,7 @@
   width: 100%;
   background: rgba(0,0,0, .1);
   backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   position: sticky;
   top: 0;
   z-index: 1;
@@ -53,6 +54,8 @@
   padding: 20px 20px;
   position: relative;
   user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .navicon {
