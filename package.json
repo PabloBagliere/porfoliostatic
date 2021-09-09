@@ -1,16 +1,15 @@
 {
-  "name": "porfoliostatic",
+  "name": "portfoliostatic",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web html basic for webpack. Portfolio",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pablo Bagliere<pablo.bagliere2@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.15.0",

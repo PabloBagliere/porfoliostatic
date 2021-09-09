@@ -1,6 +1,6 @@
-# Porfolio statico
+# Portfolio statico
 
-Porfolio personal echo con webpack 5 y scss para tener todos los proyectos personales
+Portfolio personal echo con webpack 5 y scss para tener todos los proyectos personales
 
 ## Comandos
 
