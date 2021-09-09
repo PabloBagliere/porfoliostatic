@@ -15,9 +15,9 @@
 }
 
 .Hero_img {
-  width: 100%;
   transform: scale(1.7);
-  object-position: 0 3rem;
+  object-fit: cover;
+  object-position: 0 2rem;
 }
 
 .Hero_text {
